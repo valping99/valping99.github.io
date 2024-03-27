@@ -525,7 +525,7 @@ main {
 .service-item {
   position: relative;
   background: var(--border-gradient-onyx);
-  padding: 20px;
+  padding: 5px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   z-index: 1;
@@ -1141,6 +1141,24 @@ main {
   filter: grayscale(1) invert(1);
 }
 
+.projectdemo {
+  position: relative;
+  height: 250px;
+  width: 100%;
+  border-radius: 16px;
+  margin-bottom: 30px;
+  border: 1px solid var(--jet);
+  overflow: hidden;
+}
+
+.projectdemo figure { height: 100%; }
+
+.projectdemo iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
 .contact-form { margin-bottom: 10px; }
 
 .form-title { margin-bottom: 20px; }
@@ -1234,7 +1252,6 @@ textarea.form-input::-webkit-resizer { display: none; }
  */
 
 @media (min-width: 450px) {
-
   /**
    * client
    */
@@ -1519,6 +1536,11 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .mapbox {
+    height: 380px;
+    border-radius: 18px;
+  }
+
+  .projectdemo {
     height: 380px;
     border-radius: 18px;
   }

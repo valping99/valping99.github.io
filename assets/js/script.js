@@ -62,6 +62,9 @@ let clickEventAdded = false;
 select.addEventListener("click", function () {
   elementToggleFunc(this);
   clickEventAdded = true;
+    if (!clickEventAdded) {
+      elementToggleFunc(select);
+    }
 });
 
 // add event in all select items
@@ -147,27 +150,6 @@ for (let i = 0; i < navigationLinks.length; i++) {
     }
     for (let i = 0; i < removeActive.length; i++) {
       removeActive[i].classList.remove("active");
-    }
-  });
-}
-
-// Project Details
-// page navigation variables
-const navigationProjectLinks = document.querySelectorAll("[project-nav-link]");
-const projectPages = document.querySelectorAll("[project-page]");
-
-// add event to all nav link
-for (let i = 0; i < navigationProjectLinks.length; i++) {
-  navigationProjectLinks[i].addEventListener("click", function () {
-    for (let i = 0; i < projectPages.length; i++) {
-      if (this.innerHTML.toLowerCase() === projectPages[i].dataset.page) {
-        projectPages[i].classList.add("active");
-        navigationProjectLinks[i].classList.add("active");
-        window.scrollTo(0, 0);
-      } else {
-        projectPages[i].classList.remove("active");
-        navigationProjectLinks[i].classList.remove("active");
-      }
     }
   });
 }
