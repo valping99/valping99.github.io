@@ -58,7 +58,7 @@ overlay.addEventListener("click", testimonialsModalFunc);
 // custom select variables
 const select = document.querySelector("[data-select]");
 const selectItems = document.querySelectorAll("[data-select-item]");
-const selectValue = document.querySelector("[data-selecct-value]");
+const selectValue = document.querySelector("[data-select-value]");
 const filterBtn = document.querySelectorAll("[data-filter-btn]");
 
 select.addEventListener("click", function () { elementToggleFunc(this); });
@@ -82,9 +82,10 @@ const filterFunc = function (selectedValue) {
 
   for (let i = 0; i < filterItems.length; i++) {
 
-    if (selectedValue === "all") {
-      filterItems[i].classList.add("active");
-    } else if (selectedValue === filterItems[i].dataset.category) {
+    // if (selectedValue === "all") {
+      // filterItems[i].classList.add("active");
+    // } else 
+    if (selectedValue === filterItems[i].dataset.category) {
       filterItems[i].classList.add("active");
     } else {
       filterItems[i].classList.remove("active");
@@ -139,6 +140,8 @@ for (let i = 0; i < formInputs.length; i++) {
 // page navigation variables
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
+// Remove active variables
+const removeActive = document.querySelectorAll("[data-deactive-item]");
 
 // add event to all nav link
 for (let i = 0; i < navigationLinks.length; i++) {
@@ -153,6 +156,10 @@ for (let i = 0; i < navigationLinks.length; i++) {
         pages[i].classList.remove("active");
         navigationLinks[i].classList.remove("active");
       }
+    }
+    for(let i = 0; i<removeActive.length;i++){
+      
+    removeActive[i].classList.remove("active");
     }
 
   });
