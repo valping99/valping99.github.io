@@ -512,7 +512,8 @@ main {
  * #service 
  */
 
-.service { margin-bottom: 35px; }
+.service { margin-bottom: 35px; 
+margin-left: 100px;}
 
 .service-title { margin-bottom: 20px; }
 
@@ -827,6 +828,10 @@ main {
   color: var(--light-gray);
   font-weight: var(--fw-300);
   line-height: 1.6;
+}
+
+.description {
+  padding-bottom: 15px;
 }
 
 
@@ -1748,7 +1753,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   /* service */
 
   .service-list {
-    grid-template-columns: .2fr .2fr;
+    grid-template-columns: .25fr .25fr;
     gap: 20px 25px;
   }
 
