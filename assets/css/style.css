@@ -49,6 +49,11 @@
     hsl(45, 100%, 72%),
     hsl(35, 100%, 68%)
   );
+  --text-gradient-custom: linear-gradient(
+    to right,
+    hsl(45, 100%, 72%),
+    hsl(35, 100%, 68%)
+  );
   --text-none: linear-gradient(
     to right,
     hsla(45, 100%, 72%, 0),
@@ -908,6 +913,30 @@ main {
   line-height: 1.6;
 }
 
+.timeline-description {
+  position: relative;
+}
+
+.timeline-description:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 26px;
+  left: -20px;
+  height: 1px;
+  width: 5px;
+  background: var(--text-gradient-custom);
+  border-radius: 50%;
+}
+
+.timeline-description:last-child {
+  content: "";
+  background: var(--text-none);
+}
+
+.timeline-description-list {
+  /* margin-left: -7px; */
+}
+
 .description {
   padding-bottom: 15px;
 }
@@ -1379,18 +1408,129 @@ textarea.form-input::-webkit-resizer {
 \*-----------------------------------*/
 
 /**
- * responsive larger than 450px screen
+ * responsive larger than 280px screen
  */
+ @media (min-width: 280px) {
+  /**
+   * client
+   */
+
+   .timeline-list {
+    margin-left: 55px;
+  }
+
+  .timeline-item:not(:last-child)::before {
+    left: -40px;
+  }
+
+  .timeline-item::after {
+    height: 8px;
+    width: 8px;
+    left: -43px;
+  }
+
+  .skills-item:not(:last-child) {
+    margin-bottom: 25px;
+  }
+
+  .service{
+    margin-left: 20px;
+  }
+
+  .service-icon-box{
+    padding-top: 20px;
+    height: 50px;
+  }
+
+  .service-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px 25px;
+  }
+}
+/**
+ * responsive larger than 350px screen
+ */
+ @media (min-width: 350px) {
+  /**
+   * client
+   */
+
+   .timeline-list {
+    margin-left: 55px;
+  }
+
+  .timeline-item:not(:last-child)::before {
+    left: -40px;
+  }
+
+  .timeline-item::after {
+    height: 8px;
+    width: 8px;
+    left: -43px;
+  }
+
+  .skills-item:not(:last-child) {
+    margin-bottom: 25px;
+  }
+
+  .service{
+    margin-left: 20px;
+  }
+
+  .service-icon-box{
+    padding-top: 20px;
+    height: 50px;
+  }
+
+  .service-list {
+    display: grid;
+    grid-template-columns: 0.5fr .5fr;
+    gap: 20px 25px;
+  }
+}
 
 @media (min-width: 450px) {
   /**
    * client
    */
 
+  .service-list {
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: 0.5fr .5fr;
+    gap: 20px 25px;
+  }
+  .service-icon-box {
+    margin-bottom: 10px;
+    padding-top: 25px;
+    height: 50px;
+  }
+
+  .service{
+    margin-left: 20px;
+  }
   .clients-item {
     min-width: calc(33.33% - 10px);
   }
 
+  .timeline-list {
+    margin-left: 55px;
+  }
+
+  .timeline-item:not(:last-child)::before {
+    left: -40px;
+  }
+
+  .timeline-item::after {
+    height: 8px;
+    width: 8px;
+    left: -43px;
+  }
+
+  .skills-item:not(:last-child) {
+    margin-bottom: 25px;
+  }
   /**
    * #PORTFOLIO, BLOG 
    */
@@ -1398,6 +1538,11 @@ textarea.form-input::-webkit-resizer {
   .project-img,
   .blog-banner-box {
     height: auto;
+  }
+  
+
+  .service-item-title{
+    font-size: 15px;
   }
 }
 
@@ -1410,6 +1555,18 @@ textarea.form-input::-webkit-resizer {
    * CUSTOM PROPERTY
    */
 
+   .service-list {
+    display: grid;
+    grid-template-columns: 0.5fr .5fr;
+    gap: 20px 25px;
+  }
+
+  .service-item-title{
+    font-size: 15px;
+  }
+
+  .service-icon-box {padding-bottom: 65px;
+  }
   :root {
     /**
      * typography
