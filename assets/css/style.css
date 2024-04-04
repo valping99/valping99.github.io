@@ -240,6 +240,24 @@ article.active {
   }
 }
 
+@keyframes zoom-out {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.85);
+  }
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
 .h2,
 .h3,
 .h4,
@@ -588,6 +606,7 @@ main {
 
 .service-item-title {
   margin-bottom: 7px;
+  padding-top: 10px;
 }
 
 .service-item-text {
@@ -723,24 +742,17 @@ main {
 }
 
 .modal-close-btn {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  background: var(--onyx);
-  border-radius: 8px;
-  width: 32px;
-  height: 32px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--white-2);
-  font-size: 18px;
   opacity: 0.7;
 }
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   opacity: 1;
+}
+.modal-close-btn:active {
+  opacity: 1;
+  animation-name: zoom-out;
+  animation-duration: 1s;
 }
 
 .modal-close-btn ion-icon {
@@ -1895,7 +1907,7 @@ textarea.form-input::-webkit-resizer {
   /* service */
 
   .service-list {
-    grid-template-columns: 0.25fr 0.25fr 0.25fr ;
+    grid-template-columns: 0.25fr 0.25fr 0.25fr;
     gap: 20px 25px;
   }
 
