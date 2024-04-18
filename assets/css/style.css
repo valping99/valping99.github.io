@@ -1410,12 +1410,12 @@ textarea.form-input::-webkit-resizer {
 /**
  * responsive larger than 280px screen
  */
- @media (min-width: 280px) {
+@media (min-width: 280px) {
   /**
    * client
    */
 
-   .timeline-list {
+  .timeline-list {
     margin-left: 55px;
   }
 
@@ -1433,11 +1433,11 @@ textarea.form-input::-webkit-resizer {
     margin-bottom: 25px;
   }
 
-  .service{
+  .service {
     margin-left: 20px;
   }
 
-  .service-icon-box{
+  .service-icon-box {
     padding-top: 20px;
     height: 50px;
   }
@@ -1451,12 +1451,12 @@ textarea.form-input::-webkit-resizer {
 /**
  * responsive larger than 350px screen
  */
- @media (min-width: 350px) {
+@media (min-width: 350px) {
   /**
    * client
    */
 
-   .timeline-list {
+  .timeline-list {
     margin-left: 55px;
   }
 
@@ -1474,18 +1474,18 @@ textarea.form-input::-webkit-resizer {
     margin-bottom: 25px;
   }
 
-  .service{
+  .service {
     margin-left: 20px;
   }
 
-  .service-icon-box{
+  .service-icon-box {
     padding-top: 20px;
     height: 50px;
   }
 
   .service-list {
     display: grid;
-    grid-template-columns: 0.5fr .5fr;
+    grid-template-columns: 0.5fr 0.5fr;
     gap: 20px 25px;
   }
 }
@@ -1498,7 +1498,7 @@ textarea.form-input::-webkit-resizer {
   .service-list {
     margin-left: 0px;
     display: grid;
-    grid-template-columns: 0.5fr .5fr;
+    grid-template-columns: 0.5fr 0.5fr;
     gap: 20px 25px;
   }
   .service-icon-box {
@@ -1507,7 +1507,7 @@ textarea.form-input::-webkit-resizer {
     height: 50px;
   }
 
-  .service{
+  .service {
     margin-left: 20px;
   }
   .clients-item {
@@ -1539,9 +1539,8 @@ textarea.form-input::-webkit-resizer {
   .blog-banner-box {
     height: auto;
   }
-  
 
-  .service-item-title{
+  .service-item-title {
     font-size: 15px;
   }
 }
@@ -1555,17 +1554,18 @@ textarea.form-input::-webkit-resizer {
    * CUSTOM PROPERTY
    */
 
-   .service-list {
+  .service-list {
     display: grid;
-    grid-template-columns: 0.5fr .5fr;
+    grid-template-columns: 0.5fr 0.5fr;
     gap: 20px 25px;
   }
 
-  .service-item-title{
+  .service-item-title {
     font-size: 15px;
   }
 
-  .service-icon-box {padding-bottom: 65px;
+  .service-icon-box {
+    padding-bottom: 65px;
   }
   :root {
     /**
