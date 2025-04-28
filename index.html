@@ -1,2473 +1,1884 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Diệp Quốc Đạt - Portfolio</title>
 
-    <!--
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diệp Quốc Đạt - Portfolio</title>
+
+  <!--
     - favicon
   -->
-    <link
-      rel="shortcut icon"
-      href="./assets/images/Icon.ico"
-      type="image/x-icon"
-    />
+  <link rel="shortcut icon" href="./assets/images/Icon.ico" type="image/x-icon" />
 
-    <!--
+  <!--
     - custom css link
   -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <!--
+  <!--
     - google font link
   -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
 
-  <body>
-    <!--
+<body>
+  <!--
     - #MAIN
   -->
 
-    <main>
-      <!--
+  <main>
+    <!--
       - #SIDEBAR
     -->
 
-      <aside class="sidebar" data-sidebar>
-        <div class="sidebar-info">
-          <figure class="avatar-box">
-            <img
-              src="./assets/images/Avatar1.png"
-              width="80"
-              style="border-radius: 20px"
-            />
-          </figure>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/Avatar1.png" width="80" style="border-radius: 20px" />
+        </figure>
 
-          <div class="info-content">
-            <h3 class="name">Diep Quoc Dat</h3>
+        <div class="info-content">
+          <h3 class="name">Diep Quoc Dat</h3>
 
-            <p class="title">Unity Game developer</p>
-          </div>
-
-          <button class="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
-
-            <ion-icon name="chevron-down"></ion-icon>
-          </button>
+          <p class="title">Unity Game developer</p>
         </div>
 
-        <div class="sidebar-info_more">
-          <div class="separator"></div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
 
-          <ul class="contacts-list">
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
 
-              <div class="contact-info">
-                <p class="contact-title">Email</p>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
 
-                <a class="contact-link">datdiep1999@gmail.com</a>
-              </div>
-            </li>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Phone</p>
-                <a class="contact-link">(+84) 375376967</a>
-              </div>
-            </li>
+              <a class="contact-link">datdiep1999@gmail.com</a>
+            </div>
+          </li>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="calendar-outline"></ion-icon>
-              </div>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
 
-              <div class="contact-info">
-                <p class="contact-title">Birthday</p>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a class="contact-link">(+84) 375376967</a>
+            </div>
+          </li>
 
-                <time datetime="1999-08-20">August 20, 1999</time>
-              </div>
-            </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Location</p>
+              <time datetime="1999-08-20">August 20, 1999</time>
+            </div>
+          </li>
 
-                <address>Ho Chi Minh City</address>
-              </div>
-            </li>
-          </ul>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
 
-          <div class="separator"></div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
 
-          <ul class="social-list">
-            <li class="social-item">
-              <a
-                href="https://www.facebook.com/Datdiep754129/"
-                class="social-link"
-              >
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
+              <address>Ho Chi Minh City</address>
+            </div>
+          </li>
+        </ul>
 
-            <li class="social-item">
-              <a
-                href="https://www.linkedin.com/in/valping01789/"
-                class="social-link"
-              >
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside>
+        <div class="separator"></div>
 
-      <!--
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.facebook.com/Datdiep754129/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/valping01789/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!--
       - #main-content
     -->
 
-      <div class="main-content">
-        <!--
+    <div class="main-content">
+      <!--
         - #NAVBAR
       -->
 
-        <nav class="navbar">
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <button class="navbar-link active" data-nav-link>About</button>
-            </li>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Resume</button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Portfolio</button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Contact</button>
-            </li>
-          </ul>
-        </nav>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
 
-        <!--
+      <!--
         - #ABOUT
       -->
 
-        <article class="about active" data-page="about">
-          <header>
-            <h2 class="h2 article-title">About me</h2>
-          </header>
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
 
-          <section class="about-text">
-            <p>
-              As a developer, I've over 2+ years of experience in game
-              development using Unity and 2 years of experience in software
-              application development using C#, Java and other programming
-              languages.
-            </p>
+        <section class="about-text">
+          <p>
+            As a developer, I've over 2+ years of experience in game
+            development using Unity and 2 years of experience in software
+            application development using C#, Java and other programming
+            languages.
+          </p>
 
-            <p>
-              My job is to develop a game and maintain a game engine, debugging,
-              optimize performance and improve game quality. Collaborated with a
-              team of game designers, artists, and animators to create a unique
-              gaming experience.
-            </p>
+          <p>
+            My job is to develop a game and maintain a game engine, debugging,
+            optimize performance and improve game quality. Collaborated with a
+            team of game designers, artists, and animators to create a unique
+            gaming experience.
+          </p>
 
-            <p>
-              I am looking for a position as a game programmer in a game
-              development studio. I am open to working on any game genre.
-            </p>
-          </section>
+          <p>
+            I am looking for a position as a game programmer in a game
+            development studio. I am open to working on any game genre.
+          </p>
+        </section>
 
-          <!--
+        <!--
           - service
         -->
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-
-              <h3 class="h3">Skills</h3>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <p class="timeline-text">
-                  Unity game development: Unity, C#, game mechanics,
-                  optimization techniques
-                </p>
-              </li>
-
-              <li class="timeline-item">
-                <p class="timeline-text">
-                  Experienced with integrating textures, animations, and
-                  lighting for visually impressive games.
-                </p>
-              </li>
-              <li class="timeline-item">
-                <p class="timeline-text">
-                  Experienced in developing games on WebGL and mobile platforms.
-                </p>
-              </li>
-
-              <li class="timeline-item">
-                <p class="timeline-text">
-                  Experienced with Test Driven Development.
-                </p>
-              </li>
-
-              <li class="timeline-item">
-                <p class="timeline-text">
-                  Strong understanding of collision, physics, and particle
-                  systems.
-                </p>
-              </li>
-
-              <li class="timeline-item">
-                <p class="timeline-text">
-                  Good understanding of design patterns: state machine,
-                  observer, command...
-                </p>
-              </li>
-
-              <li class="timeline-item">
-                <p class="timeline-text">
-                  Proficient in version control such as GitHub.
-                </p>
-              </li>
-
-              <li class="timeline-item">
-                <p class="timeline-text">
-                  Dedicated to producing clean and efficient code for robust
-                  game systems.
-                </p>
-              </li>
-
-              <li class="timeline-item"></li>
-            </ol>
-          </section>
-
-          <div class="modal-container" data-modal-container>
-            <div class="overlay" data-overlay></div>
-
-            <section class="testimonials-modal">
-              <button class="modal-close-btn" data-modal-close-btn>
-                <ion-icon name="close-outline"></ion-icon>
-              </button>
-
-              <div class="modal-img-wrapper">
-                <figure class="modal-avatar-box">
-                  <img
-                    src="./assets/images/avatar-1.png"
-                    alt="Daniel lewis"
-                    width="80"
-                    data-modal-img
-                  />
-                </figure>
-
-                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
-              </div>
-            </section>
+            <h3 class="h3">Skills</h3>
           </div>
-        </article>
 
-        <!--
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <p class="timeline-text">
+                Proficient in Unity, C#, game mechanics design, and optimization techniques.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <p class="timeline-text">
+                Experienced in integrating textures, animations, and lighting to create visually impressive games.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <p class="timeline-text">
+                Strong at designing and implementing core game mechanics, UI systems, and player interactions.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <p class="timeline-text">
+                Familiar with Unity’s Data-Oriented Technology Stack (DOTS), including Entity Component System (ECS), C#
+                Job System, and Burst Compiler.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <p class="timeline-text">
+                Skilled in optimization techniques for performance-critical systems across mobile, PC, and WebGL
+                platforms.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <p class="timeline-text">
+                Experienced in Test-Driven Development (TDD) and debugging complex runtime issues.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <p class="timeline-text">
+                Proficient in integrating 2D/3D assets, animations, visual effects, and lighting for polished,
+                high-quality visuals.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <p class="timeline-text">
+                Strong understanding of collision systems, physics simulation, and particle systems.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <p class="timeline-text">
+                Strong foundation in software architecture patterns, including State Machine, Observer, Command...
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <p class="timeline-text">
+                Comfortable with version control systems like Git, GitHub, and GitLab
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <p class="timeline-text">
+                Committed to writing clean, efficient, maintainable code, following SOLID principles and best practices.
+              </p>
+            </li>
+            <li class="timeline-item"></li>
+          </ol>
+        </section>
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img />
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+            </div>
+          </section>
+        </div>
+      </article>
+
+      <!--
         - #RESUME
       -->
-        <article class="resume" data-page="resume">
-          <header>
-            <h2 class="h2 article-title">Resume</h2>
-          </header>
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-
-              <h3 class="h3">Summary</h3>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <p class="timeline-text">
-                  Over 2 years of experience as a developer, specializing in
-                  Unity and Cocos game engines, with a focus on creating
-                  hyper-casual, hybrid-casual, and mid-core games.
-                </p>
-              </li>
+            <h3 class="h3">Summary</h3>
+          </div>
 
-              <li class="timeline-item">
-                <p class="timeline-text">
-                  Skilled in C#, Java, Javascript, SOLID Design Principles, and
-                  OOP.
-                </p>
-              </li>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <p class="timeline-text">
+                Over 2 years of experience as a developer, specializing in
+                Unity and Cocos game engines, with a focus on creating
+                hyper-casual, hybrid-casual, and mid-core games.
+              </p>
+            </li>
 
-              <li class="timeline-item">
-                <p class="timeline-text">
-                  Good understanding of design patterns: state machine,
-                  observer, command, dependency injection...
-                </p>
-              </li>
+            <li class="timeline-item">
+              <p class="timeline-text">
+                Skilled in C#, Java, Javascript, SOLID Design Principles, and
+                OOP.
+              </p>
+            </li>
 
-              <li class="timeline-item">
-                <p class="timeline-text">
-                  Experienced with Test Driven Development.
-                </p>
-              </li>
+            <li class="timeline-item">
+              <p class="timeline-text">
+                Good understanding of design patterns: state machine,
+                observer, command, dependency injection...
+              </p>
+            </li>
 
-              <li class="timeline-item">
-                <p class="timeline-text">
-                  Experienced with SQL, NoSQL, Firebase.
-                </p>
-              </li>
+            <li class="timeline-item">
+              <p class="timeline-text">
+                Experienced with Test Driven Development.
+              </p>
+            </li>
 
-              <li class="timeline-item">
-                <p class="timeline-text">
-                  Experienced with CI-CD toolkits: Github Action, Jenkins.
-                </p>
-              </li>
+            <li class="timeline-item">
+              <p class="timeline-text">
+                Experienced with SQL, NoSQL, Firebase.
+              </p>
+            </li>
 
-              <li class="timeline-item">
-                <p class="timeline-text">Experienced with SCRUM and Agile.</p>
-              </li>
+            <li class="timeline-item">
+              <p class="timeline-text">
+                Experienced with CI-CD toolkits: Github Action, Jenkins.
+              </p>
+            </li>
 
-              <li class="timeline-item">
-                <p class="timeline-text">
-                  I thrive on challenges and constantly seek opportunities to
-                  innovate and grow.
-                </p>
-              </li>
-              <li class="timeline-item"></li>
-            </ol>
-          </section>
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
+            <li class="timeline-item">
+              <p class="timeline-text">Experienced with SCRUM and Agile.</p>
+            </li>
 
-              <h3 class="h3">Experience</h3>
+            <li class="timeline-item">
+              <p class="timeline-text">
+                I thrive on challenges and constantly seek opportunities to
+                innovate and grow.
+              </p>
+            </li>
+            <li class="timeline-item"></li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Freelancer - Game Developer
-                </h4>
+            <h3 class="h3">Experience</h3>
+          </div>
 
-                <span>10/2024 — 01/2025</span>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Freelancer - Game Developer
+              </h4>
 
-                <p class="timeline-text">
-                  - Developed and deployed games for mobile and web platforms
-                  using Cocos Engine and Unity Engine for various personal and
-                  client projects.
-                </p>
+              <span>10/2024 — 01/2025</span>
 
-                <p class="timeline-text">
-                  - Designed and implemented core gameplay systems, mechanics, and features across multiple engines.
-                </p>
+              <p class="timeline-text">
+                - Developed and deployed games for mobile and web platforms
+                using Cocos Engine and Unity Engine for various personal and
+                client projects.
+              </p>
 
-                <p class="timeline-text">
-                  - Ensured seamless performance and optimized user experience for both mobile and web platforms.
-                </p>
+              <p class="timeline-text">
+                - Designed and implemented core gameplay systems, mechanics, and features across multiple engines.
+              </p>
 
-                <p class="timeline-text">
-                  - Focused on optimizing performance for mobile platforms,
-                  ensuring efficient memory management, smooth animations, and
-                  fast loading times.
-                </p>
+              <p class="timeline-text">
+                - Ensured seamless performance and optimized user experience for both mobile and web platforms.
+              </p>
 
-                <p class="timeline-text">
-                  - Integrated game monetization strategies, including in-app
-                  purchases and ads, for mobile games.
-                </p>
-              </li>
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Indigames Inc - Junior Game Developer
-                </h4>
+              <p class="timeline-text">
+                - Focused on optimizing performance for mobile platforms,
+                ensuring efficient memory management, smooth animations, and
+                fast loading times.
+              </p>
 
-                <span>07/2022 — 05/2024</span>
+              <p class="timeline-text">
+                - Integrated game monetization strategies, including in-app
+                purchases and ads, for mobile games.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Indigames Inc - Junior Game Developer
+              </h4>
 
-                <p class="timeline-text">
-                  - Developed and maintained a game engine using C#, resulting
-                  in an optimized performance of our products.
-                </p>
+              <span>07/2022 — 05/2024</span>
 
-                <p class="timeline-text">
-                  - Collaborated with a team of game designers, artists, and
-                  animators to create a unique gaming experience.
-                </p>
+              <p class="timeline-text">
+                - Developed and maintained a game engine using C#, resulting
+                in an optimized performance of our products.
+              </p>
 
-                <p class="timeline-text">
-                  - Using Scrum Methodology to report, discuss and suggest the
-                  progression every day
-                </p>
+              <p class="timeline-text">
+                - Collaborated with a team of game designers, artists, and
+                animators to create a unique gaming experience.
+              </p>
 
-                <p class="timeline-text">
-                  - Design core gameplay and features for products
-                </p>
+              <p class="timeline-text">
+                - Using Scrum Methodology to report, discuss and suggest the
+                progression every day
+              </p>
 
-                <p class="timeline-text">- Build tools for Game Designer</p>
-              </li>
+              <p class="timeline-text">
+                - Design core gameplay and features for products
+              </p>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Việt Vang - Fresher</h4>
+              <p class="timeline-text">- Build tools for Game Designer</p>
+            </li>
 
-                <span>04/2021 — 07/2021</span>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Việt Vang - Fresher</h4>
 
-                <p class="timeline-text">
-                  - I developed a winform project using Entity Framework,
-                  Firebase, then the API is created using authentication was
-                  implemented using firebase.
-                </p>
-              </li>
+              <span>04/2021 — 07/2021</span>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Solazu - Fresher</h4>
+              <p class="timeline-text">
+                - I developed a winform project using Entity Framework,
+                Firebase, then the API is created using authentication was
+                implemented using firebase.
+              </p>
+            </li>
 
-                <span>06/2017 — 08/2017</span>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Solazu - Fresher</h4>
 
-                <p class="timeline-text">
-                  - Experienced in Frontend, WordPress, other frameworks and
-                  hands-on with many other company projects.
-                </p>
+              <span>06/2017 — 08/2017</span>
 
-                <p class="timeline-text">
-                  - Good at working with groups, enthusiastic in taking on tasks
-                  and finishing them on time.
-                </p>
-              </li>
-              <li class="timeline-item"></li>
-            </ol>
-          </section>
+              <p class="timeline-text">
+                - Experienced in Frontend, WordPress, other frameworks and
+                hands-on with many other company projects.
+              </p>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
+              <p class="timeline-text">
+                - Good at working with groups, enthusiastic in taking on tasks
+                and finishing them on time.
+              </p>
+            </li>
+            <li class="timeline-item"></li>
+          </ol>
+        </section>
 
-              <h3 class="h3">Education</h3>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  FPT Polytechnic College of Ho Chi Minh
-                </h4>
-                <span>09/2018 — 06/2021</span>
-                <span><b>GPA</b>: 7.9</span>
-                <span><b>Course</b>: Software Applicatio</span>
-              </li>
+            <h3 class="h3">Education</h3>
+          </div>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Tan Tien Vocational School
-                </h4>
-                <span>10/2015 — 05/2018</span>
-                <span><b>GPA</b>: 7.8</span>
-                <span><b>Course</b>: Graphic Design</span>
-              </li>
-              <li class="timeline-item"></li>
-            </ol>
-          </section>
-        </article>
-        <!--
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                FPT Polytechnic College of Ho Chi Minh
+              </h4>
+              <span>09/2018 — 06/2021</span>
+              <span><b>GPA</b>: 7.9</span>
+              <span><b>Course</b>: Software Applicatio</span>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Tan Tien Vocational School
+              </h4>
+              <span>10/2015 — 05/2018</span>
+              <span><b>GPA</b>: 7.8</span>
+              <span><b>Course</b>: Graphic Design</span>
+            </li>
+            <li class="timeline-item"></li>
+          </ol>
+        </section>
+      </article>
+      <!--
         - #PORTFOLIO
       -->
 
-        <article class="portfolio" data-page="portfolio">
-          <header>
-            <h2 class="h2 article-title">Portfolio</h2>
-          </header>
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
 
-          <section class="projects">
-            <div class="filter-select-box">
-              <button class="filter-select" data-select>
-                <div class="select-value" data-select-value>
-                  Select category
-                </div>
+        <section class="projects">
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-select-value>
+                Select category
+              </div>
 
-                <div class="select-icon">
-                  <ion-icon name="chevron-down"></ion-icon>
-                </div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Chain Colosseum Phoenix</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Crypto Quest</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Boat Jam</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Matching Baccarat</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Kanegon</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Pino Racing</button>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Test -->
+          <section class="blog-posts project-item active" data-filter-item data-category="all">
+            <ul class="blog-posts-list">
+              <button class="data-select-item">
+                <li class="blog-post-item select-item">
+                  <a>
+                    <!-- <button> -->
+                    <figure class="blog-banner-box" data-select-item style="font-size: 0">
+                      Chain Colosseum Phoenix
+                      <img src="./assets/images/Phoenix/Title.png" loading="lazy" />
+                    </figure>
+
+                    <div class="blog-content">
+                      <div class="blog-meta">
+                        <time datetime="2024-02-21">02/2024 - 05/2024</time>
+                      </div>
+
+                      <h3 class="h3 blog-item-title" data-select-item>
+                        Chain Colosseum Phoenix
+                      </h3>
+                    </div>
+                    <!-- </button> -->
+                  </a>
+                </li>
               </button>
 
-              <ul class="select-list">
-                <li class="select-item">
-                  <button data-select-item>All</button>
-                </li>
+              <button class="data-select-item">
+                <li class="blog-post-item select-item">
+                  <a>
+                    <figure class="blog-banner-box" data-select-item style="font-size: 0">
+                      Crypto Quest
+                      <img src="./assets/images/CryptoQuest/Title.png" loading="lazy" />
+                    </figure>
 
-                <li class="select-item">
-                  <button data-select-item>Chain Colosseum Phoenix</button>
-                </li>
+                    <div class="blog-content">
+                      <div class="blog-meta">
+                        <time datetime="2024-02-21">Jun 1, 2023 — Feb 29, 2024</time>
+                      </div>
 
-                <li class="select-item">
-                  <button data-select-item>Crypto Quest</button>
+                      <h3 class="h3 blog-item-title" data-select-item>
+                        Crypto Quest
+                      </h3>
+                    </div>
+                  </a>
                 </li>
+              </button>
 
-                <li class="select-item">
-                  <button data-select-item>Boat Jam</button>
-                </li>
+              <li class="blog-post-item">
+                <a>
+                  <button>
+                    <figure class="blog-banner-box" data-select-item style="font-size: 0">
+                      Boat Jam
+                      <img src="./assets/images/BoatJam/Logo.jpg" alt="Design digest #80" loading="lazy" />
+                    </figure>
 
-                <li class="select-item">
-                  <button data-select-item>Matching Baccarat</button>
-                </li>
+                    <div class="blog-content">
+                      <div class="blog-meta">
+                        <time datetime="2024">October 2024</time>
+                      </div>
 
-                <li class="select-item">
-                  <button data-select-item>Kanegon</button>
-                </li>
+                      <h3 class="h3 blog-item-title" data-select-item>
+                        Boat Jam
+                      </h3>
+                    </div>
+                  </button>
+                </a>
+              </li>
 
-                <li class="select-item">
-                  <button data-select-item>Pino Racing</button>
-                </li>
-              </ul>
+              <li class="blog-post-item">
+                <a>
+                  <button>
+                    <figure class="blog-banner-box" data-select-item style="font-size: 0">
+                      Matching Baccarat
+                      <img src="./assets/images/MatchingBaccarat/Title.png" loading="lazy" />
+                    </figure>
+
+                    <div class="blog-content">
+                      <div class="blog-meta">
+                        <time datetime="2023-01-10">20 Jul, 2022 — Jan 10, 2023</time>
+                      </div>
+
+                      <h3 class="h3 blog-item-title" data-select-item>
+                        Matching Baccarat
+                      </h3>
+                    </div>
+                  </button>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a>
+                  <button>
+                    <figure class="blog-banner-box" data-select-item style="font-size: 0">
+                      Kanegon
+                      <img src="./assets/images/Kanegon/Banner.png" alt="Design digest #80" loading="lazy" />
+                    </figure>
+
+                    <div class="blog-content">
+                      <div class="blog-meta">
+                        <time datetime="2023-04-06">Feb 02, 2023 — April 06, 2023</time>
+                      </div>
+
+                      <h3 class="h3 blog-item-title" data-select-item>
+                        Kanegon
+                      </h3>
+                    </div>
+                  </button>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a>
+                  <button>
+                    <figure class="blog-banner-box" data-select-item style="font-size: 0">
+                      Pino Racing
+                      <img src="./assets/images/Pino/Title.png" alt="UI interactions of the week" loading="lazy" />
+                    </figure>
+
+                    <div class="blog-content">
+                      <div class="blog-meta">
+                        <time datetime="2022-09-27">May 23, 2022 — Sep 28, 2022</time>
+                      </div>
+
+                      <h3 class="h3 blog-item-title" data-select-item>
+                        Pino Racing
+                      </h3>
+                    </div>
+                  </button>
+                </a>
+              </li>
+            </ul>
+          </section>
+          <!--  -->
+          <ul class="project-list">
+            <!-- Phoenix -->
+            <div class="project-item active" data-filter-item data-deactive-item
+              data-category="chain colosseum phoenix">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/Phoenix/Login.png" loading="lazy" />
+                </figure>
+              </a>
             </div>
 
-            <!-- Test -->
-            <section
-              class="blog-posts project-item active"
-              data-filter-item
-              data-category="all"
-            >
-              <ul class="blog-posts-list">
-                <button class="data-select-item">
-                  <li class="blog-post-item select-item">
-                    <a>
-                      <!-- <button> -->
-                      <figure
-                        class="blog-banner-box"
-                        data-select-item
-                        style="font-size: 0"
-                      >
-                        Chain Colosseum Phoenix
-                        <img
-                          src="./assets/images/Phoenix/Title.png"
-                          loading="lazy"
-                        />
-                      </figure>
+            <div class="project-item active" data-filter-item data-deactive-item
+              data-category="chain colosseum phoenix">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/Phoenix/HomeScreen.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+            <div class="project-item active" data-filter-item data-deactive-item
+              data-category="chain colosseum phoenix">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/Phoenix/PartyList.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+            <div class="project-item active" data-filter-item data-deactive-item
+              data-category="chain colosseum phoenix">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/Phoenix/PartyList.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
 
-                      <div class="blog-content">
-                        <div class="blog-meta">
-                          <time datetime="2024-02-21">02/2024 - 05/2024</time>
-                        </div>
+            <div class="project-item active" data-filter-item data-deactive-item
+              data-category="chain colosseum phoenix">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/Phoenix/HeroDetail.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
 
-                        <h3 class="h3 blog-item-title" data-select-item>
-                          Chain Colosseum Phoenix
-                        </h3>
-                      </div>
-                      <!-- </button> -->
-                    </a>
+            <div class="project-item active" data-filter-item data-deactive-item
+              data-category="chain colosseum phoenix">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/Phoenix/LevelUpDialog.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item
+              data-category="chain colosseum phoenix">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/Phoenix/Shop.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item
+              data-category="chain colosseum phoenix">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/Phoenix/Battle.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item
+              data-category="chain colosseum phoenix">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/Phoenix/Achievement.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+
+            <!-- End Phoenix -->
+
+            <!-- Crypto Quest -->
+            <div class="project-item active" data-filter-item data-deactive-item data-category="crypto quest">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/CryptoQuest/Title.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+            <div class="project-item active" data-filter-item data-deactive-item data-category="crypto quest">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/CryptoQuest/Home.png" alt="finance" />
+                </figure>
+              </a>
+            </div>
+            <div class="project-item active" data-filter-item data-deactive-item data-category="crypto quest">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/CryptoQuest/Battle.png" alt="finance" />
+                </figure>
+              </a>
+            </div>
+            <div class="project-item active" data-filter-item data-deactive-item data-category="crypto quest">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/CryptoQuest/Status.png" alt="finance" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="crypto quest">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/CryptoQuest/Quest.png" alt="finance" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="crypto quest">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/CryptoQuest/Reward.png" alt="finance" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="crypto quest">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/CryptoQuest/Tavern.png" alt="finance" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="crypto quest">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/CryptoQuest/Beast Detail.png" alt="finance" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="crypto quest">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/CryptoQuest/BeastEvolve.png" alt="finance" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="crypto quest">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/CryptoQuest/ChangeClass.png" alt="finance" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="crypto quest">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/CryptoQuest/NPCBehaviour.png" alt="finance" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="crypto quest">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/CryptoQuest/Revive.png" alt="finance" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="crypto quest">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/CryptoQuest/BeastToolTip.png" alt="finance" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="crypto quest">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/CryptoQuest/EvolveEquipment.png" alt="finance" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="crypto quest">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/CryptoQuest/Cheat.png" alt="finance" />
+                </figure>
+              </a>
+            </div>
+
+            <!-- End Crypto Quest -->
+
+            <!-- Boat Jam -->
+            <div class="project-item active" data-filter-item data-deactive-item data-category="boat jam">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/BoatJam/Logo.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+            <div class="project-item active" data-filter-item data-deactive-item data-category="boat jam">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/BoatJam/Gameplay.png" alt="finance" />
+                </figure>
+              </a>
+            </div>
+            <div class="project-item active" data-filter-item data-deactive-item data-category="boat jam">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/BoatJam/Gameplay1.png" alt="finance" />
+                </figure>
+              </a>
+            </div>
+            <div class="project-item active" data-filter-item data-deactive-item data-category="boat jam">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/BoatJam/LevelFail (Custom).png" alt="finance" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="boat jam">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/BoatJam/LevelWin (Custom).png" alt="finance" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="boat jam">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/BoatJam/Shuffle (Custom).png" alt="finance" />
+                </figure>
+              </a>
+            </div>
+            <!-- End Boat Jam -->
+
+            <!-- Baccarat -->
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="matching baccarat">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/MatchingBaccarat/Title.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="matching baccarat">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/MatchingBaccarat/Bet.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="matching baccarat">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/MatchingBaccarat/BetResult.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="matching baccarat">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/MatchingBaccarat/Ranking.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="matching baccarat">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/MatchingBaccarat/Winner.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="matching baccarat">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/MatchingBaccarat/Roulette.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="matching baccarat">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/MatchingBaccarat/AudioReward.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="matching baccarat">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/MatchingBaccarat/SignatureReward.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="matching baccarat">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/MatchingBaccarat/WinnerReward.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+
+            <!-- End Baccarat -->
+
+            <!-- Kanegon -->
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="kanegon">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/Kanegon/Title.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="kanegon">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/Kanegon/Gameplay.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="kanegon">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/Kanegon/Result.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+
+            <!-- End Kanegon -->
+
+            <!-- Pino Racing -->
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="pino racing">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/Pino/Title.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="pino racing">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/Pino/Tutorial.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="pino racing">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/Pino/SelectCar.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="pino racing">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/Pino/Ice.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="pino racing">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/Pino/Gameplay.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="pino racing">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/Pino/Result.png" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+
+            <div class="project-item active" data-filter-item data-deactive-item data-category="pino racing">
+              <a onclick="expandImage(this)">
+                <figure class="project-img">
+                  <img src="./assets/images/Pino/Box.jpeg" loading="lazy" />
+                </figure>
+              </a>
+            </div>
+
+            <!-- End Pino Racing -->
+          </ul>
+          <!-- Chain Colsseum Phoenix Detail -->
+          <section class="timeline project-item active" data-filter-item data-deactive-item
+            data-category="chain colosseum phoenix">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Chain Colsseum Phoenix</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h1 class="h4 timeline-item-title">Overview:</h1>
+
+                <ul class="timeline-description-list">
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      This is a Web3 game application with built-in Game-Fi
+                      elements. Players can earn in-game currency by fighting
+                      and defeating various monsters with heroes summoned from
+                      the Summoner’s book.
+                    </p>
                   </li>
-                </button>
+                  <li class="timeline-description"></li>
+                </ul>
+              </li>
+              <li class="timeline-item">
+                <h1 class="h4 timeline-item-title">Main responsibility:</h1>
 
-                <button class="data-select-item">
-                  <li class="blog-post-item select-item">
-                    <a>
-                      <figure
-                        class="blog-banner-box"
-                        data-select-item
-                        style="font-size: 0"
-                      >
-                        Crypto Quest
-                        <img
-                          src="./assets/images/CryptoQuest/Title.png"
-                          loading="lazy"
-                        />
-                      </figure>
-
-                      <div class="blog-content">
-                        <div class="blog-meta">
-                          <time datetime="2024-02-21"
-                            >Jun 1, 2023 — Feb 29, 2024</time
-                          >
-                        </div>
-
-                        <h3 class="h3 blog-item-title" data-select-item>
-                          Crypto Quest
-                        </h3>
-                      </div>
-                    </a>
+                <ul class="timeline-description-list">
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Implemented an achievement feature allowing players to
+                      earn in-game currency by claiming rewards from completed
+                      achievements. This feature incentivizes players to
+                      engage in various aspects of the game and rewards their
+                      progress.
+                    </p>
                   </li>
-                </button>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Introduced a set favorite feature for heroes, enabling
+                      players to mark certain heroes as favorites to prevent
+                      accidental selling or discarding. This functionality
+                      adds convenience and ensures players can easily manage
+                      their hero collection without the risk of losing
+                      valuable characters.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Implemented quick links within the user interface to
+                      facilitate seamless navigation between different screens
+                      or dialogs. These quick links enhance user experience by
+                      providing efficient access to frequently used features
+                      or information, reducing the time needed for navigation.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Conducted debugging and optimization processes to
+                      enhance the overall performance and stability of the
+                      product.
+                    </p>
+                  </li>
+                  <li class="timeline-description"></li>
+                </ul>
+              </li>
+              <li class="timeline-item"></li>
+            </ol>
+            <section class="service">
+              <h3 class="h3 service-title"></h3>
 
-                <li class="blog-post-item">
-                  <a>
-                    <button>
-                      <figure
-                        class="blog-banner-box"
-                        data-select-item
-                        style="font-size: 0"
-                      >
-                        Boat Jam
-                        <img
-                          src="./assets/images/BoatJam/Logo.jpg"
-                          alt="Design digest #80"
-                          loading="lazy"
-                        />
-                      </figure>
+              <ul class="service-list">
+                <a href="https://phoenix.chaincolosseum.org/" target="_blank" class="modal-close-btn">
+                  <li class="service-item">
+                    <div class="service-icon-box">
+                      <img src="./assets/images/icon-design.svg
+                      " alt="design icon" width="40" />
+                    </div>
 
-                      <div class="blog-content">
-                        <div class="blog-meta">
-                          <time datetime="2024">October 2024</time>
-                        </div>
-
-                        <h3 class="h3 blog-item-title" data-select-item>
-                          Boat Jam
-                        </h3>
-                      </div>
-                    </button>
-                  </a>
-                </li>
-
-                <li class="blog-post-item">
-                  <a>
-                    <button>
-                      <figure
-                        class="blog-banner-box"
-                        data-select-item
-                        style="font-size: 0"
-                      >
-                        Matching Baccarat
-                        <img
-                          src="./assets/images/MatchingBaccarat/Title.png"
-                          loading="lazy"
-                        />
-                      </figure>
-
-                      <div class="blog-content">
-                        <div class="blog-meta">
-                          <time datetime="2023-01-10"
-                            >20 Jul, 2022 — Jan 10, 2023</time
-                          >
-                        </div>
-
-                        <h3 class="h3 blog-item-title" data-select-item>
-                          Matching Baccarat
-                        </h3>
-                      </div>
-                    </button>
-                  </a>
-                </li>
-
-                <li class="blog-post-item">
-                  <a>
-                    <button>
-                      <figure
-                        class="blog-banner-box"
-                        data-select-item
-                        style="font-size: 0"
-                      >
-                        Kanegon
-                        <img
-                          src="./assets/images/Kanegon/Banner.png"
-                          alt="Design digest #80"
-                          loading="lazy"
-                        />
-                      </figure>
-
-                      <div class="blog-content">
-                        <div class="blog-meta">
-                          <time datetime="2023-04-06"
-                            >Feb 02, 2023 — April 06, 2023</time
-                          >
-                        </div>
-
-                        <h3 class="h3 blog-item-title" data-select-item>
-                          Kanegon
-                        </h3>
-                      </div>
-                    </button>
-                  </a>
-                </li>
-
-                <li class="blog-post-item">
-                  <a>
-                    <button>
-                      <figure
-                        class="blog-banner-box"
-                        data-select-item
-                        style="font-size: 0"
-                      >
-                        Pino Racing
-                        <img
-                          src="./assets/images/Pino/Title.png"
-                          alt="UI interactions of the week"
-                          loading="lazy"
-                        />
-                      </figure>
-
-                      <div class="blog-content">
-                        <div class="blog-meta">
-                          <time datetime="2022-09-27"
-                            >May 23, 2022 — Sep 28, 2022</time
-                          >
-                        </div>
-
-                        <h3 class="h3 blog-item-title" data-select-item>
-                          Pino Racing
-                        </h3>
-                      </div>
-                    </button>
-                  </a>
-                </li>
+                    <div class="service-content-box">
+                      <h4 class="h4 service-item-title">Main Website</h4>
+                    </div>
+                  </li>
+                </a>
               </ul>
             </section>
-            <!--  -->
-            <ul class="project-list">
-              <!-- Phoenix -->
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="chain colosseum phoenix"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/Phoenix/Login.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="chain colosseum phoenix"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/Phoenix/HomeScreen.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="chain colosseum phoenix"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/Phoenix/PartyList.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="chain colosseum phoenix"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/Phoenix/PartyList.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="chain colosseum phoenix"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/Phoenix/HeroDetail.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="chain colosseum phoenix"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/Phoenix/LevelUpDialog.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="chain colosseum phoenix"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/Phoenix/Shop.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="chain colosseum phoenix"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/Phoenix/Battle.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="chain colosseum phoenix"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/Phoenix/Achievement.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <!-- End Phoenix -->
-
-              <!-- Crypto Quest -->
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="crypto quest"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/CryptoQuest/Title.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="crypto quest"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/CryptoQuest/Home.png"
-                      alt="finance"
-                    />
-                  </figure>
-                </a>
-              </div>
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="crypto quest"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/CryptoQuest/Battle.png"
-                      alt="finance"
-                    />
-                  </figure>
-                </a>
-              </div>
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="crypto quest"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/CryptoQuest/Status.png"
-                      alt="finance"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="crypto quest"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/CryptoQuest/Quest.png"
-                      alt="finance"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="crypto quest"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/CryptoQuest/Reward.png"
-                      alt="finance"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="crypto quest"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/CryptoQuest/Tavern.png"
-                      alt="finance"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="crypto quest"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/CryptoQuest/Beast Detail.png"
-                      alt="finance"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="crypto quest"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/CryptoQuest/BeastEvolve.png"
-                      alt="finance"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="crypto quest"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/CryptoQuest/ChangeClass.png"
-                      alt="finance"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="crypto quest"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/CryptoQuest/NPCBehaviour.png"
-                      alt="finance"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="crypto quest"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/CryptoQuest/Revive.png"
-                      alt="finance"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="crypto quest"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/CryptoQuest/BeastToolTip.png"
-                      alt="finance"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="crypto quest"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/CryptoQuest/EvolveEquipment.png"
-                      alt="finance"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="crypto quest"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/CryptoQuest/Cheat.png"
-                      alt="finance"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <!-- End Crypto Quest -->
-
-              <!-- Boat Jam -->
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="boat jam"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/BoatJam/Logo.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="boat jam"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/BoatJam/Gameplay.png"
-                      alt="finance"
-                    />
-                  </figure>
-                </a>
-              </div>
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="boat jam"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/BoatJam/Gameplay1.png"
-                      alt="finance"
-                    />
-                  </figure>
-                </a>
-              </div>
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="boat jam"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/BoatJam/LevelFail (Custom).png"
-                      alt="finance"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="boat jam"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/BoatJam/LevelWin (Custom).png"
-                      alt="finance"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="boat jam"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/BoatJam/Shuffle (Custom).png"
-                      alt="finance"
-                    />
-                  </figure>
-                </a>
-              </div>
-              <!-- End Boat Jam -->
-
-              <!-- Baccarat -->
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="matching baccarat"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/MatchingBaccarat/Title.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="matching baccarat"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/MatchingBaccarat/Bet.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="matching baccarat"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/MatchingBaccarat/BetResult.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="matching baccarat"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/MatchingBaccarat/Ranking.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="matching baccarat"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/MatchingBaccarat/Winner.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="matching baccarat"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/MatchingBaccarat/Roulette.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="matching baccarat"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/MatchingBaccarat/AudioReward.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="matching baccarat"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/MatchingBaccarat/SignatureReward.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="matching baccarat"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/MatchingBaccarat/WinnerReward.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <!-- End Baccarat -->
-
-              <!-- Kanegon -->
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="kanegon"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/Kanegon/Title.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="kanegon"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/Kanegon/Gameplay.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="kanegon"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/Kanegon/Result.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <!-- End Kanegon -->
-
-              <!-- Pino Racing -->
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="pino racing"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img src="./assets/images/Pino/Title.png" loading="lazy" />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="pino racing"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/Pino/Tutorial.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="pino racing"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/Pino/SelectCar.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="pino racing"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img src="./assets/images/Pino/Ice.png" loading="lazy" />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="pino racing"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img
-                      src="./assets/images/Pino/Gameplay.png"
-                      loading="lazy"
-                    />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="pino racing"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img src="./assets/images/Pino/Result.png" loading="lazy" />
-                  </figure>
-                </a>
-              </div>
-
-              <div
-                class="project-item active"
-                data-filter-item
-                data-deactive-item
-                data-category="pino racing"
-              >
-                <a onclick="expandImage(this)">
-                  <figure class="project-img">
-                    <img src="./assets/images/Pino/Box.jpeg" loading="lazy" />
-                  </figure>
-                </a>
-              </div>
-
-              <!-- End Pino Racing -->
-            </ul>
-            <!-- Chain Colsseum Phoenix Detail -->
-            <section
-              class="timeline project-item active"
-              data-filter-item
-              data-deactive-item
-              data-category="chain colosseum phoenix"
-            >
-              <div class="title-wrapper">
-                <div class="icon-box">
-                  <ion-icon name="book-outline"></ion-icon>
-                </div>
-
-                <h3 class="h3">Chain Colsseum Phoenix</h3>
-              </div>
-
-              <ol class="timeline-list">
-                <li class="timeline-item">
-                  <h1 class="h4 timeline-item-title">Overview:</h1>
-
-                  <ul class="timeline-description-list">
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        This is a Web3 game application with built-in Game-Fi
-                        elements. Players can earn in-game currency by fighting
-                        and defeating various monsters with heroes summoned from
-                        the Summoner’s book.
-                      </p>
-                    </li>
-                    <li class="timeline-description"></li>
-                  </ul>
-                </li>
-                <li class="timeline-item">
-                  <h1 class="h4 timeline-item-title">Main responsibility:</h1>
-
-                  <ul class="timeline-description-list">
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Implemented an achievement feature allowing players to
-                        earn in-game currency by claiming rewards from completed
-                        achievements. This feature incentivizes players to
-                        engage in various aspects of the game and rewards their
-                        progress.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Introduced a set favorite feature for heroes, enabling
-                        players to mark certain heroes as favorites to prevent
-                        accidental selling or discarding. This functionality
-                        adds convenience and ensures players can easily manage
-                        their hero collection without the risk of losing
-                        valuable characters.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Implemented quick links within the user interface to
-                        facilitate seamless navigation between different screens
-                        or dialogs. These quick links enhance user experience by
-                        providing efficient access to frequently used features
-                        or information, reducing the time needed for navigation.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Conducted debugging and optimization processes to
-                        enhance the overall performance and stability of the
-                        product.
-                      </p>
-                    </li>
-                    <li class="timeline-description"></li>
-                  </ul>
-                </li>
-                <li class="timeline-item"></li>
-              </ol>
-              <section class="service">
-                <h3 class="h3 service-title"></h3>
-
-                <ul class="service-list">
-                  <a
-                    href="https://phoenix.chaincolosseum.org/"
-                    target="_blank"
-                    class="modal-close-btn"
-                  >
-                    <li class="service-item">
-                      <div class="service-icon-box">
-                        <img
-                          src="./assets/images/icon-design.svg
-                      "
-                          alt="design icon"
-                          width="40"
-                        />
-                      </div>
-
-                      <div class="service-content-box">
-                        <h4 class="h4 service-item-title">Main Website</h4>
-                      </div>
-                    </li>
-                  </a>
-                </ul>
-              </section>
-            </section>
-
-            <!-- End Detail -->
-
-            <!-- Crypto Quest Detail -->
-            <section
-              class="timeline project-item active"
-              data-filter-item
-              data-deactive-item
-              data-category="crypto quest"
-            >
-              <div class="title-wrapper">
-                <div class="icon-box">
-                  <ion-icon name="book-outline"></ion-icon>
-                </div>
-
-                <h3 class="h3">Crypto Quest</h3>
-              </div>
-
-              <ul class="timeline-list">
-                <li class="timeline-item">
-                  <h1 class="h4 timeline-item-title">Overview:</h1>
-                  <ul>
-                    <li>
-                      <ul class="timeline-description-list">
-                        <li class="timeline-description">
-                          <p class="timeline-text description">
-                            This is a turn-based NFT game inspired by the Dragon
-                            Quest game, orchestrating the integration of
-                            multiple complex systems including quests, skills,
-                            characters, and networking functionalities
-                          </p>
-                        </li>
-                        <li class="timeline-description">
-                          <p class="timeline-text description">
-                            Team size: Total 13 members with 9 members in
-                            Front-end team, 3 members in back-end teams and 1
-                            tester. I've collaborated with all the members
-                            within an Agile Scrum environment to discuss,
-                            suggest and improve our product.
-                          </p>
-                        </li>
-                        <li class="timeline-description"></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li class="timeline-item">
-                  <h1 class="h4 timeline-item-title">Main responsibility:</h1>
-                  <ul class="timeline-description-list">
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Developed NPC systems including predefined moving paths
-                        for NPCs, managing facing direction when interacting
-                        with NPCs, and utilizing Blend Trees to set animations
-                        for NPC movement and interaction.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Implemented a change class system for heroes, allowing
-                        players to evolve their heroes into higher classes.
-                        Collaborated with the backend team to fetch relevant
-                        data and import new stats to the upgraded hero, ensuring
-                        a seamless transition and balance within the game.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Implemented a Beast evolve system, enabling Beasts to
-                        achieve higher rankings. Collaborated with the backend
-                        team to retrieve necessary data and import updated
-                        statistics to the evolved Beast, ensuring progression
-                        and diversity in gameplay.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Utilized the Gameplay Ability System to implement
-                        passive skills for Beasts, expanding their abilities and
-                        applying them to all heroes within a party. This
-                        enriches gameplay strategy by introducing diverse
-                        passive abilities that impact combat dynamics.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Implemented a training system allowing players to test
-                        battles and refine their strategies. Leveraged existing
-                        battle systems to provide a controlled environment for
-                        players to experiment with tactics and improve their
-                        skills.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Developed a revive system enabling players to revive
-                        defeated heroes within their party during battles. This
-                        feature provides players with a chance to recover from
-                        setbacks and continue their adventures without losing
-                        progress.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Developed editor tools tailored for designers,
-                        facilitating the import of sprites and animations to
-                        multiple NPCs. These tools empower designers to
-                        efficiently manage and update game assets, streamlining
-                        the game development process.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Conducted debugging and optimization processes to
-                        enhance the overall performance and stability of the
-                        product.
-                      </p>
-                    </li>
-                    <li class="timeline-description"></li>
-                  </ul>
-                </li>
-                <li class="timeline-item"></li>
-              </ul>
-              <section class="service">
-                <h3 class="h3 service-title"></h3>
-
-                <ul class="service-list">
-                  <a
-                    href="https://crypto-quest.org/"
-                    target="_blank"
-                    class="modal-close-btn"
-                  >
-                    <li class="service-item">
-                      <div class="service-icon-box">
-                        <img
-                          src="./assets/images/icon-design.svg
-                      "
-                          alt="design icon"
-                          width="40"
-                        />
-                      </div>
-
-                      <div class="service-content-box">
-                        <h4 class="h4 service-item-title">Main Website</h4>
-                      </div>
-                    </li>
-                  </a>
-
-                  <a
-                    href="https://www.youtube.com/watch?v=DLbbKSdFZEw"
-                    target="_blank"
-                    class="modal-close-btn"
-                  >
-                    <li class="service-item">
-                      <div class="service-icon-box">
-                        <img
-                          src="./assets/images/icon-photo.svg"
-                          alt="Web development icon"
-                          width="40"
-                        />
-                      </div>
-
-                      <div class="service-content-box">
-                        <h4 class="h4 service-item-title">Watch Video</h4>
-                      </div>
-                    </li>
-                  </a>
-
-                  <a
-                    href="https://games.indigames.link/crypto-quest/stg/"
-                    target="_blank"
-                    class="modal-close-btn"
-                  >
-                    <li class="service-item">
-                      <div class="service-icon-box">
-                        <img
-                          src="./assets/images/icon-dev.svg"
-                          alt="Web development icon"
-                          width="40"
-                        />
-                      </div>
-
-                      <div class="service-content-box">
-                        <h4 class="h4 service-item-title">Live Demo</h4>
-                      </div>
-                    </li>
-                  </a>
-                </ul>
-              </section>
-            </section>
-
-            <!-- End Detail -->
-
-            <!-- Boat Jam Detail -->
-            <section
-              class="timeline project-item active"
-              data-filter-item
-              data-deactive-item
-              data-category="boat jam"
-            >
-              <div class="title-wrapper">
-                <div class="icon-box">
-                  <ion-icon name="book-outline"></ion-icon>
-                </div>
-
-                <h3 class="h3">Boat Jam</h3>
-              </div>
-
-              <ol class="timeline-list">
-                <li class="timeline-item">
-                  <h1 class="h4 timeline-item-title">Overview:</h1>
-                  <ul class="timeline-description-list">
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Boat Jam is a Unity-based mobile puzzle game where
-                        players guide boats out of a jam-packed harbor. The game
-                        focuses on intuitive controls, smooth gameplay, and
-                        engaging puzzle mechanics designed to entertain players
-                        of all ages.
-                      </p>
-                    </li>
-                    <li class="timeline-description"></li>
-                  </ul>
-                </li>
-                <li class="timeline-item">
-                  <h1 class="h4 timeline-item-title">Main responsibility:</h1>
-                  <ul class="timeline-description-list">
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Developed Puzzle Mechanics: Designed and implemented
-                        core puzzle-solving gameplay mechanics, ensuring
-                        intuitive controls and increasing difficulty progression
-                        across levels.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Integrated Level Design System: Built a modular system
-                        for creating and managing levels, allowing for efficient
-                        addition of new puzzles and diverse gameplay scenarios.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Audio System Integration: Developed and managed the
-                        in-game audio system to deliver immersive background
-                        music and sound effects, enhancing player engagement.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Debugging and Issue Resolution: Identified and resolved
-                        bugs and performance bottlenecks through rigorous
-                        testing to maintain game stability and a high-quality
-                        user experience.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Implemented Smooth Animations: Utilized the DoTween
-                        library to create seamless animations for boat movements
-                        and UI transitions, enhancing visual appeal and
-                        delivering a polished user experience.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Implemented Monetization Features: Integrated in-app
-                        purchases and rewarded ads to provide monetization
-                        opportunities while maintaining a balanced and
-                        non-intrusive player experience.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Performance Optimization: Conducted thorough debugging
-                        and optimization of game systems to ensure smooth
-                        gameplay, enhanced stability, and an improved overall
-                        user experience.
-                      </p>
-                    </li>
-                    <li class="timeline-description"></li>
-                  </ul>
-                </li>
-                <li class="timeline-item"></li>
-              </ol>
-              <section class="service">
-                <h3 class="h3 service-title"></h3>
-
-                <ul class="service-list">
-                  <a
-                    href="https://play.google.com/store/apps/details?id=com.seaweed.boar.jam.sort.puzzle.game"
-                    target="_blank"
-                    class="modal-close-btn"
-                  >
-                    <li class="service-item">
-                      <div class="service-icon-box">
-                        <img
-                          src="./assets/images/icon-dev.svg"
-                          alt="Web development icon"
-                          width="40"
-                        />
-                      </div>
-
-                      <div class="service-content-box">
-                        <h4 class="h4 service-item-title">Google Play</h4>
-                      </div>
-                    </li>
-                  </a>
-                </ul>
-              </section>
-            </section>
-            <!-- End Detail -->
-
-            <!-- Matching Baccarat Detail -->
-            <section
-              class="timeline project-item active"
-              data-filter-item
-              data-deactive-item
-              data-category="matching baccarat"
-            >
-              <div class="title-wrapper">
-                <div class="icon-box">
-                  <ion-icon name="book-outline"></ion-icon>
-                </div>
-
-                <h3 class="h3">Matching Baccarat</h3>
-              </div>
-
-              <ol class="timeline-list">
-                <li class="timeline-item">
-                  <h1 class="h4 timeline-item-title">Overview:</h1>
-                  <ul class="timeline-description-list">
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        This is a game that streamers and viewers can play
-                        together, the viewer will gain a gift from the streamer
-                        which enhances interactivity and engagement during live
-                        streams.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Team size: Total 2 members.
-                      </p>
-                    </li>
-                    <li class="timeline-description"></li>
-                  </ul>
-                </li>
-                <li class="timeline-item">
-                  <h1 class="h4 timeline-item-title">Main responsibility:</h1>
-                  <ul class="timeline-description-list">
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Utilized DoTween library to create smooth animations
-                        throughout the game, enhancing visual appeal and
-                        fluidity of movement.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Developed a Roulette feature allowing streamers to
-                        select winners randomly from viewers, enabling them to
-                        gift presents to selected winners during streams. This
-                        feature enhances interactivity and engagement during
-                        live streams.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Integrated an audio system to manage and play audio
-                        across the game, ensuring immersive sound effects and
-                        music throughout the gameplay experience.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Developed a feature to record voice messages from the
-                        streamer and deliver them to viewers who win in the
-                        roulette. This adds a personal touch to the interaction
-                        between streamers and viewers, enhancing engagement and
-                        fostering a sense of community.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Developed a draw feature allowing streamers to create
-                        drawings or sketches directly within the game interface
-                        and deliver them to viewers who win in the roulette.
-                        Integrated drawing tools such as brushes, colors, and
-                        erasers to enable streamers to express their creativity
-                        effectively.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Conducted debugging and optimization processes to
-                        enhance the overall performance and stability of the
-                        product.
-                      </p>
-                    </li>
-                    <li class="timeline-description"></li>
-                  </ul>
-                </li>
-                <li class="timeline-item"></li>
-              </ol>
-              <section class="service">
-                <h3 class="h3 service-title"></h3>
-
-                <ul class="service-list">
-                  <a
-                    href="https://youtu.be/PdgJ1n4H7HA?si=xkAfkAFaHMcD8Gif"
-                    target="_blank"
-                    class="modal-close-btn"
-                  >
-                    <li class="service-item">
-                      <div class="service-icon-box">
-                        <img
-                          src="./assets/images/icon-dev.svg"
-                          alt="Web development icon"
-                          width="40"
-                        />
-                      </div>
-
-                      <div class="service-content-box">
-                        <h4 class="h4 service-item-title">Trailer</h4>
-                      </div>
-                    </li>
-                  </a>
-                  <a
-                    href="https://www.youtube.com/live/DwV9cGyqpW4?si=XdOZX8l2jKXKoMsb"
-                    target="_blank"
-                    class="modal-close-btn"
-                  >
-                    <li class="service-item">
-                      <div class="service-icon-box">
-                        <img
-                          src="./assets/images/icon-dev.svg"
-                          alt="Web development icon"
-                          width="40"
-                        />
-                      </div>
-
-                      <div class="service-content-box">
-                        <h4 class="h4 service-item-title">Watch Video</h4>
-                      </div>
-                    </li>
-                  </a>
-                </ul>
-              </section>
-            </section>
-            <!-- End Detail -->
-
-            <!-- Kanegon Detail -->
-            <section
-              class="timeline project-item active"
-              data-filter-item
-              data-deactive-item
-              data-category="kanegon"
-            >
-              <div class="title-wrapper">
-                <div class="icon-box">
-                  <ion-icon name="book-outline"></ion-icon>
-                </div>
-
-                <h3 class="h3">Kanegon</h3>
-              </div>
-
-              <ol class="timeline-list">
-                <li class="timeline-item">
-                  <h1 class="h4 timeline-item-title">Overview:</h1>
-                  <ul class="timeline-description-list">
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        This is a hyper-casual game, a player will control the
-                        character and get the highest score to get a voucher and
-                        redeem the code.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Team size: 1 member
-                      </p>
-                    </li>
-                    <li class="timeline-description"></li>
-                  </ul>
-                </li>
-                <li class="timeline-item">
-                  <h1 class="h4 timeline-item-title">Main responsibility:</h1>
-                  <ul class="timeline-description-list">
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Leveraged StateMachine for controlling player behavior,
-                        ensuring seamless transitions and responsive gameplay
-                        experiences. This approach enhances gameplay dynamics by
-                        providing structured and efficient control over player
-                        actions and interactions.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Implemented item spawning mechanics and character skills
-                        within the game. This included defining parameters for
-                        item generation and character abilities, enhancing
-                        gameplay depth and variety
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Developed a custom plugin using JavaScript (jslib) to
-                        check device compatibility and enable social media
-                        sharing functionalities (SNS) for WebGL builds.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Created a dedicated tool to modify game data stored in
-                        JSON files located in streaming assets. This tool
-                        provides developers with a user-friendly interface to
-                        adjust various game parameters and configurations,
-                        streamlining the game development and testing process.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Tailored WebGL builds using WebGLTemplates to meet
-                        specific client requirements. This customization ensures
-                        compatibility with various platforms and devices while
-                        optimizing performance and graphical fidelity,
-                        delivering an enhanced gaming experience tailored to the
-                        client's needs.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Conducted debugging and optimization processes to
-                        enhance the overall performance and stability of the
-                        product.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Integrated social media sharing functionality within the
-                        game, including platforms like Facebook, Twitter, and
-                        Line. This feature enhances social interaction among
-                        players by allowing them to share their achievements,
-                        progress, and experiences with friends and followers,
-                        thereby increasing player engagement and community
-                        interaction.
-                      </p>
-                    </li>
-                    <li class="timeline-description"></li>
-                  </ul>
-                </li>
-                <li class="timeline-item"></li>
-              </ol>
-              <section class="service">
-                <h3 class="h3 service-title"></h3>
-
-                <ul class="service-list">
-                  <a
-                    href="https://valping99.github.io/StrippedKanegon/"
-                    target="_blank"
-                    class="modal-close-btn"
-                  >
-                    <li class="service-item">
-                      <div class="service-icon-box">
-                        <img
-                          src="./assets/images/icon-design.svg
-                    "
-                          alt="design icon"
-                          width="40"
-                        />
-                      </div>
-
-                      <div class="service-content-box">
-                        <h4 class="h4 service-item-title">Live Demo</h4>
-                      </div>
-                    </li>
-                  </a>
-
-                  <a
-                    href="https://youtu.be/qxPhcW4SwL4?t=933"
-                    target="_blank"
-                    class="modal-close-btn"
-                  >
-                    <li class="service-item">
-                      <div class="service-icon-box">
-                        <img
-                          src="./assets/images/icon-dev.svg"
-                          alt="Web development icon"
-                          width="40"
-                        />
-                      </div>
-
-                      <div class="service-content-box">
-                        <h4 class="h4 service-item-title">Watch Video</h4>
-                      </div>
-                    </li>
-                  </a>
-                </ul>
-              </section>
-            </section>
-            <!-- End Detail -->
-
-            <!-- Pino Racing Detail -->
-            <section
-              class="timeline project-item active"
-              data-filter-item
-              data-deactive-item
-              data-category="pino racing"
-            >
-              <div class="title-wrapper">
-                <div class="icon-box">
-                  <ion-icon name="book-outline"></ion-icon>
-                </div>
-
-                <h3 class="h3">Pino Racing</h3>
-              </div>
-
-              <ol class="timeline-list">
-                <li class="timeline-item">
-                  <h1 class="h4 timeline-item-title">Overview:</h1>
-                  <ul class="timeline-description-list">
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        In addition, the game cassette-style "Pino Game"
-                        packaging created a fun and strange feeling that the ice
-                        cream store resembled a game store, which encouraged
-                        many people to purchase and play the product.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Team size: 2 members.
-                      </p>
-                    </li>
-                    <li class="timeline-description"></li>
-                  </ul>
-                </li>
-                <li class="timeline-item">
-                  <h1 class="h4 timeline-item-title">Main responsibility:</h1>
-                  <ul class="timeline-description-list">
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Leveraged PathCreator for streamlined map creation,
-                        allowing for efficient planning and design.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Implemented Twitter sharing functionality within the
-                        game, enhancing social interaction and player
-                        engagement.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        I developed AI-controlled cars (CPU) for racing against
-                        players.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Customized WebGL builds using WebGLTemplates to meet
-                        specific client requirements, ensuring compatibility and
-                        optimization.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Utilized StateMachine for controlling player behavior,
-                        ensuring smooth transitions and responsive gameplay
-                        experiences.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Developed AI-controlled cars (CPU) to provide
-                        challenging opponents for players, enhancing the racing
-                        experience and providing diverse gameplay options.
-                      </p>
-                    </li>
-                    <li class="timeline-description">
-                      <p class="timeline-text description">
-                        Conducted debugging and optimization processes to
-                        enhance the overall performance and stability of the
-                        product.
-                      </p>
-                    </li>
-                    <li class="timeline-description"></li>
-                  </ul>
-                </li>
-                <li class="timeline-item"></li>
-              </ol>
-              <section class="service">
-                <h3 class="h3 service-title"></h3>
-
-                <ul class="service-list">
-                  <a
-                    href="https://valping99.github.io/StrippedPinoRacing/"
-                    target="_blank"
-                    class="modal-close-btn"
-                  >
-                    <li class="service-item">
-                      <div class="service-icon-box">
-                        <img
-                          src="./assets/images/icon-design.svg
-                    "
-                          alt="design icon"
-                          width="40"
-                        />
-                      </div>
-
-                      <div class="service-content-box">
-                        <h4 class="h4 service-item-title">Live Demo</h4>
-                      </div>
-                    </li>
-                  </a>
-
-                  <a
-                    href="https://youtu.be/V1X00AkoZ6U"
-                    target="_blank"
-                    class="modal-close-btn"
-                  >
-                    <li class="service-item">
-                      <div class="service-icon-box">
-                        <img
-                          src="./assets/images/icon-dev.svg"
-                          alt="Web development icon"
-                          width="40"
-                        />
-                      </div>
-
-                      <div class="service-content-box">
-                        <h4 class="h4 service-item-title">Trailer</h4>
-                      </div>
-                    </li>
-                  </a>
-                </ul>
-              </section>
-            </section>
-            <!-- End Detail -->
           </section>
-        </article>
 
-        <!--
+          <!-- End Detail -->
+
+          <!-- Crypto Quest Detail -->
+          <section class="timeline project-item active" data-filter-item data-deactive-item
+            data-category="crypto quest">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Crypto Quest</h3>
+            </div>
+
+            <ul class="timeline-list">
+              <li class="timeline-item">
+                <h1 class="h4 timeline-item-title">Overview:</h1>
+                <ul>
+                  <li>
+                    <ul class="timeline-description-list">
+                      <li class="timeline-description">
+                        <p class="timeline-text description">
+                          This is a turn-based NFT game inspired by the Dragon
+                          Quest game, orchestrating the integration of
+                          multiple complex systems including quests, skills,
+                          characters, and networking functionalities
+                        </p>
+                      </li>
+                      <li class="timeline-description">
+                        <p class="timeline-text description">
+                          Team size: Total 13 members with 9 members in
+                          Front-end team, 3 members in back-end teams and 1
+                          tester. I've collaborated with all the members
+                          within an Agile Scrum environment to discuss,
+                          suggest and improve our product.
+                        </p>
+                      </li>
+                      <li class="timeline-description"></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="timeline-item">
+                <h1 class="h4 timeline-item-title">Main responsibility:</h1>
+                <ul class="timeline-description-list">
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Developed NPC systems including predefined moving paths
+                      for NPCs, managing facing direction when interacting
+                      with NPCs, and utilizing Blend Trees to set animations
+                      for NPC movement and interaction.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Implemented a change class system for heroes, allowing
+                      players to evolve their heroes into higher classes.
+                      Collaborated with the backend team to fetch relevant
+                      data and import new stats to the upgraded hero, ensuring
+                      a seamless transition and balance within the game.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Implemented a Beast evolve system, enabling Beasts to
+                      achieve higher rankings. Collaborated with the backend
+                      team to retrieve necessary data and import updated
+                      statistics to the evolved Beast, ensuring progression
+                      and diversity in gameplay.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Utilized the Gameplay Ability System to implement
+                      passive skills for Beasts, expanding their abilities and
+                      applying them to all heroes within a party. This
+                      enriches gameplay strategy by introducing diverse
+                      passive abilities that impact combat dynamics.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Implemented a training system allowing players to test
+                      battles and refine their strategies. Leveraged existing
+                      battle systems to provide a controlled environment for
+                      players to experiment with tactics and improve their
+                      skills.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Developed a revive system enabling players to revive
+                      defeated heroes within their party during battles. This
+                      feature provides players with a chance to recover from
+                      setbacks and continue their adventures without losing
+                      progress.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Developed editor tools tailored for designers,
+                      facilitating the import of sprites and animations to
+                      multiple NPCs. These tools empower designers to
+                      efficiently manage and update game assets, streamlining
+                      the game development process.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Conducted debugging and optimization processes to
+                      enhance the overall performance and stability of the
+                      product.
+                    </p>
+                  </li>
+                  <li class="timeline-description"></li>
+                </ul>
+              </li>
+              <li class="timeline-item"></li>
+            </ul>
+            <section class="service">
+              <h3 class="h3 service-title"></h3>
+
+              <ul class="service-list">
+                <a href="https://crypto-quest.org/" target="_blank" class="modal-close-btn">
+                  <li class="service-item">
+                    <div class="service-icon-box">
+                      <img src="./assets/images/icon-design.svg
+                      " alt="design icon" width="40" />
+                    </div>
+
+                    <div class="service-content-box">
+                      <h4 class="h4 service-item-title">Main Website</h4>
+                    </div>
+                  </li>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=DLbbKSdFZEw" target="_blank" class="modal-close-btn">
+                  <li class="service-item">
+                    <div class="service-icon-box">
+                      <img src="./assets/images/icon-photo.svg" alt="Web development icon" width="40" />
+                    </div>
+
+                    <div class="service-content-box">
+                      <h4 class="h4 service-item-title">Watch Video</h4>
+                    </div>
+                  </li>
+                </a>
+
+                <a href="https://games.indigames.link/crypto-quest/stg/" target="_blank" class="modal-close-btn">
+                  <li class="service-item">
+                    <div class="service-icon-box">
+                      <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+                    </div>
+
+                    <div class="service-content-box">
+                      <h4 class="h4 service-item-title">Live Demo</h4>
+                    </div>
+                  </li>
+                </a>
+              </ul>
+            </section>
+          </section>
+
+          <!-- End Detail -->
+
+          <!-- Boat Jam Detail -->
+          <section class="timeline project-item active" data-filter-item data-deactive-item data-category="boat jam">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Boat Jam</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h1 class="h4 timeline-item-title">Overview:</h1>
+                <ul class="timeline-description-list">
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Boat Jam is a Unity-based mobile puzzle game where
+                      players guide boats out of a jam-packed harbor. The game
+                      focuses on intuitive controls, smooth gameplay, and
+                      engaging puzzle mechanics designed to entertain players
+                      of all ages.
+                    </p>
+                  </li>
+                  <li class="timeline-description"></li>
+                </ul>
+              </li>
+              <li class="timeline-item">
+                <h1 class="h4 timeline-item-title">Main responsibility:</h1>
+                <ul class="timeline-description-list">
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Developed Puzzle Mechanics: Designed and implemented
+                      core puzzle-solving gameplay mechanics, ensuring
+                      intuitive controls and increasing difficulty progression
+                      across levels.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Integrated Level Design System: Built a modular system
+                      for creating and managing levels, allowing for efficient
+                      addition of new puzzles and diverse gameplay scenarios.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Audio System Integration: Developed and managed the
+                      in-game audio system to deliver immersive background
+                      music and sound effects, enhancing player engagement.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Debugging and Issue Resolution: Identified and resolved
+                      bugs and performance bottlenecks through rigorous
+                      testing to maintain game stability and a high-quality
+                      user experience.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Implemented Smooth Animations: Utilized the DoTween
+                      library to create seamless animations for boat movements
+                      and UI transitions, enhancing visual appeal and
+                      delivering a polished user experience.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Implemented Monetization Features: Integrated in-app
+                      purchases and rewarded ads to provide monetization
+                      opportunities while maintaining a balanced and
+                      non-intrusive player experience.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Performance Optimization: Conducted thorough debugging
+                      and optimization of game systems to ensure smooth
+                      gameplay, enhanced stability, and an improved overall
+                      user experience.
+                    </p>
+                  </li>
+                  <li class="timeline-description"></li>
+                </ul>
+              </li>
+              <li class="timeline-item"></li>
+            </ol>
+            <section class="service">
+              <h3 class="h3 service-title"></h3>
+
+              <ul class="service-list">
+                <a href="https://play.google.com/store/apps/details?id=com.seaweed.boar.jam.sort.puzzle.game"
+                  target="_blank" class="modal-close-btn">
+                  <li class="service-item">
+                    <div class="service-icon-box">
+                      <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+                    </div>
+
+                    <div class="service-content-box">
+                      <h4 class="h4 service-item-title">Google Play</h4>
+                    </div>
+                  </li>
+                </a>
+              </ul>
+            </section>
+          </section>
+          <!-- End Detail -->
+
+          <!-- Matching Baccarat Detail -->
+          <section class="timeline project-item active" data-filter-item data-deactive-item
+            data-category="matching baccarat">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Matching Baccarat</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h1 class="h4 timeline-item-title">Overview:</h1>
+                <ul class="timeline-description-list">
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      This is a game that streamers and viewers can play
+                      together, the viewer will gain a gift from the streamer
+                      which enhances interactivity and engagement during live
+                      streams.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Team size: Total 2 members.
+                    </p>
+                  </li>
+                  <li class="timeline-description"></li>
+                </ul>
+              </li>
+              <li class="timeline-item">
+                <h1 class="h4 timeline-item-title">Main responsibility:</h1>
+                <ul class="timeline-description-list">
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Utilized DoTween library to create smooth animations
+                      throughout the game, enhancing visual appeal and
+                      fluidity of movement.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Developed a Roulette feature allowing streamers to
+                      select winners randomly from viewers, enabling them to
+                      gift presents to selected winners during streams. This
+                      feature enhances interactivity and engagement during
+                      live streams.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Integrated an audio system to manage and play audio
+                      across the game, ensuring immersive sound effects and
+                      music throughout the gameplay experience.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Developed a feature to record voice messages from the
+                      streamer and deliver them to viewers who win in the
+                      roulette. This adds a personal touch to the interaction
+                      between streamers and viewers, enhancing engagement and
+                      fostering a sense of community.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Developed a draw feature allowing streamers to create
+                      drawings or sketches directly within the game interface
+                      and deliver them to viewers who win in the roulette.
+                      Integrated drawing tools such as brushes, colors, and
+                      erasers to enable streamers to express their creativity
+                      effectively.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Conducted debugging and optimization processes to
+                      enhance the overall performance and stability of the
+                      product.
+                    </p>
+                  </li>
+                  <li class="timeline-description"></li>
+                </ul>
+              </li>
+              <li class="timeline-item"></li>
+            </ol>
+            <section class="service">
+              <h3 class="h3 service-title"></h3>
+
+              <ul class="service-list">
+                <a href="https://youtu.be/PdgJ1n4H7HA?si=xkAfkAFaHMcD8Gif" target="_blank" class="modal-close-btn">
+                  <li class="service-item">
+                    <div class="service-icon-box">
+                      <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+                    </div>
+
+                    <div class="service-content-box">
+                      <h4 class="h4 service-item-title">Trailer</h4>
+                    </div>
+                  </li>
+                </a>
+                <a href="https://www.youtube.com/live/DwV9cGyqpW4?si=XdOZX8l2jKXKoMsb" target="_blank"
+                  class="modal-close-btn">
+                  <li class="service-item">
+                    <div class="service-icon-box">
+                      <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+                    </div>
+
+                    <div class="service-content-box">
+                      <h4 class="h4 service-item-title">Watch Video</h4>
+                    </div>
+                  </li>
+                </a>
+              </ul>
+            </section>
+          </section>
+          <!-- End Detail -->
+
+          <!-- Kanegon Detail -->
+          <section class="timeline project-item active" data-filter-item data-deactive-item data-category="kanegon">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Kanegon</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h1 class="h4 timeline-item-title">Overview:</h1>
+                <ul class="timeline-description-list">
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      This is a hyper-casual game, a player will control the
+                      character and get the highest score to get a voucher and
+                      redeem the code.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Team size: 1 member
+                    </p>
+                  </li>
+                  <li class="timeline-description"></li>
+                </ul>
+              </li>
+              <li class="timeline-item">
+                <h1 class="h4 timeline-item-title">Main responsibility:</h1>
+                <ul class="timeline-description-list">
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Leveraged StateMachine for controlling player behavior,
+                      ensuring seamless transitions and responsive gameplay
+                      experiences. This approach enhances gameplay dynamics by
+                      providing structured and efficient control over player
+                      actions and interactions.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Implemented item spawning mechanics and character skills
+                      within the game. This included defining parameters for
+                      item generation and character abilities, enhancing
+                      gameplay depth and variety
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Developed a custom plugin using JavaScript (jslib) to
+                      check device compatibility and enable social media
+                      sharing functionalities (SNS) for WebGL builds.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Created a dedicated tool to modify game data stored in
+                      JSON files located in streaming assets. This tool
+                      provides developers with a user-friendly interface to
+                      adjust various game parameters and configurations,
+                      streamlining the game development and testing process.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Tailored WebGL builds using WebGLTemplates to meet
+                      specific client requirements. This customization ensures
+                      compatibility with various platforms and devices while
+                      optimizing performance and graphical fidelity,
+                      delivering an enhanced gaming experience tailored to the
+                      client's needs.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Conducted debugging and optimization processes to
+                      enhance the overall performance and stability of the
+                      product.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Integrated social media sharing functionality within the
+                      game, including platforms like Facebook, Twitter, and
+                      Line. This feature enhances social interaction among
+                      players by allowing them to share their achievements,
+                      progress, and experiences with friends and followers,
+                      thereby increasing player engagement and community
+                      interaction.
+                    </p>
+                  </li>
+                  <li class="timeline-description"></li>
+                </ul>
+              </li>
+              <li class="timeline-item"></li>
+            </ol>
+            <section class="service">
+              <h3 class="h3 service-title"></h3>
+
+              <ul class="service-list">
+                <a href="https://valping99.github.io/StrippedKanegon/" target="_blank" class="modal-close-btn">
+                  <li class="service-item">
+                    <div class="service-icon-box">
+                      <img src="./assets/images/icon-design.svg
+                    " alt="design icon" width="40" />
+                    </div>
+
+                    <div class="service-content-box">
+                      <h4 class="h4 service-item-title">Live Demo</h4>
+                    </div>
+                  </li>
+                </a>
+
+                <a href="https://youtu.be/qxPhcW4SwL4?t=933" target="_blank" class="modal-close-btn">
+                  <li class="service-item">
+                    <div class="service-icon-box">
+                      <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+                    </div>
+
+                    <div class="service-content-box">
+                      <h4 class="h4 service-item-title">Watch Video</h4>
+                    </div>
+                  </li>
+                </a>
+              </ul>
+            </section>
+          </section>
+          <!-- End Detail -->
+
+          <!-- Pino Racing Detail -->
+          <section class="timeline project-item active" data-filter-item data-deactive-item data-category="pino racing">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Pino Racing</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h1 class="h4 timeline-item-title">Overview:</h1>
+                <ul class="timeline-description-list">
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      In addition, the game cassette-style "Pino Game"
+                      packaging created a fun and strange feeling that the ice
+                      cream store resembled a game store, which encouraged
+                      many people to purchase and play the product.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Team size: 2 members.
+                    </p>
+                  </li>
+                  <li class="timeline-description"></li>
+                </ul>
+              </li>
+              <li class="timeline-item">
+                <h1 class="h4 timeline-item-title">Main responsibility:</h1>
+                <ul class="timeline-description-list">
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Leveraged PathCreator for streamlined map creation,
+                      allowing for efficient planning and design.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Implemented Twitter sharing functionality within the
+                      game, enhancing social interaction and player
+                      engagement.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      I developed AI-controlled cars (CPU) for racing against
+                      players.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Customized WebGL builds using WebGLTemplates to meet
+                      specific client requirements, ensuring compatibility and
+                      optimization.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Utilized StateMachine for controlling player behavior,
+                      ensuring smooth transitions and responsive gameplay
+                      experiences.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Developed AI-controlled cars (CPU) to provide
+                      challenging opponents for players, enhancing the racing
+                      experience and providing diverse gameplay options.
+                    </p>
+                  </li>
+                  <li class="timeline-description">
+                    <p class="timeline-text description">
+                      Conducted debugging and optimization processes to
+                      enhance the overall performance and stability of the
+                      product.
+                    </p>
+                  </li>
+                  <li class="timeline-description"></li>
+                </ul>
+              </li>
+              <li class="timeline-item"></li>
+            </ol>
+            <section class="service">
+              <h3 class="h3 service-title"></h3>
+
+              <ul class="service-list">
+                <a href="https://valping99.github.io/StrippedPinoRacing/" target="_blank" class="modal-close-btn">
+                  <li class="service-item">
+                    <div class="service-icon-box">
+                      <img src="./assets/images/icon-design.svg
+                    " alt="design icon" width="40" />
+                    </div>
+
+                    <div class="service-content-box">
+                      <h4 class="h4 service-item-title">Live Demo</h4>
+                    </div>
+                  </li>
+                </a>
+
+                <a href="https://youtu.be/V1X00AkoZ6U" target="_blank" class="modal-close-btn">
+                  <li class="service-item">
+                    <div class="service-icon-box">
+                      <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+                    </div>
+
+                    <div class="service-content-box">
+                      <h4 class="h4 service-item-title">Trailer</h4>
+                    </div>
+                  </li>
+                </a>
+              </ul>
+            </section>
+          </section>
+          <!-- End Detail -->
+        </section>
+      </article>
+
+      <!--
         - #PROJECT
       -->
 
-        <!--
+      <!--
         - #CONTACT
       -->
 
-        <article class="contact" data-page="contact">
-          <header>
-            <h2 class="h2 article-title">Contact</h2>
-          </header>
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
 
-          <section class="mapbox" data-mapbox>
-            <figure>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.113008613782!2d106.68309667591348!3d10.80265595870763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528daf1722be9%3A0x616136404d5b917b!2zMTVCIMSQLiBD4bqnbSBCw6EgVGjGsOG7m2MsIFBoxrDhu51uZyA3LCBQaMO6IE5odeG6rW4sIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1711450257859!5m2!1sen!2s"
-                width="600"
-                height="450"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </figure>
-          </section>
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.113008613782!2d106.68309667591348!3d10.80265595870763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528daf1722be9%3A0x616136404d5b917b!2zMTVCIMSQLiBD4bqnbSBCw6EgVGjGsOG7m2MsIFBoxrDhu51uZyA3LCBQaMO6IE5odeG6rW4sIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1711450257859!5m2!1sen!2s"
+              width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
 
-          <section class="contact-form">
-            <h3 class="h3 form-title">Contact Form</h3>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
 
-            <form
-              action="https://api.web3forms.com/submit"
-              method="POST"
-              class="form"
-              data-form
-            >
-              <div class="input-wrapper">
-                <input
-                  type="hidden"
-                  name="access_key"
-                  value="9fdb3999-2ef1-46ab-9d2e-840efe8d703c"
-                />
+          <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="hidden" name="access_key" value="9fdb3999-2ef1-46ab-9d2e-840efe8d703c" />
 
-                <input
-                  type="text"
-                  name="fullname"
-                  class="form-input"
-                  placeholder="Full name"
-                  required
-                  data-form-input
-                />
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input />
 
-                <input
-                  type="email"
-                  name="email"
-                  class="form-input"
-                  placeholder="Email address"
-                  required
-                  data-form-input
-                />
-              </div>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required
+                data-form-input />
+            </div>
 
-              <textarea
-                name="message"
-                class="form-input"
-                placeholder="Your Message"
-                required
-                data-form-input
-              ></textarea>
-              <div class="h-captcha" data-captcha="true"></div>
-              <button class="form-btn" type="submit" disabled data-form-btn>
-                <ion-icon name="paper-plane"></ion-icon>
-                <span>Send Message</span>
-              </button>
-            </form>
-          </section>
-        </article>
-      </div>
-    </main>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <div class="h-captcha" data-captcha="true"></div>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
 
-    <!--
+  <!--
     - custom js link
   -->
-    <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/script.js"></script>
 
-    <!--
+  <!--
     - ionicon link
   -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-    <!-- Required for hCaptcha -->
-    <script src="https://web3forms.com/client/script.js" async defer></script>
-  </body>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Required for hCaptcha -->
+  <script src="https://web3forms.com/client/script.js" async defer></script>
+</body>
+
 </html>
