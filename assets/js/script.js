@@ -73,13 +73,14 @@ for (let i = 0; i < selectItems.length; i++) {
     if (!clickEventAdded) {
       elementToggleFunc(select);
     }
-    let selectedValue = this.innerText.toLowerCase();
-    selectValue.innerText = this.innerText;
+    let selectedValue = this.dataset.value.toLowerCase();
+    selectValue.innerText = this.dataset.value;
     elementToggleFunc(select);
     filterFunc(selectedValue);
     clickEventAdded = false;
   });
 }
+
 
 // filter variables
 const filterItems = document.querySelectorAll("[data-filter-item]");
