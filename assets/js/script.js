@@ -61,23 +61,26 @@ let clickEventAdded = false;
 
 select.addEventListener("click", function () {
   elementToggleFunc(this);
-  clickEventAdded = true;
-  if (!clickEventAdded) {
-    elementToggleFunc(select);
-  }
 });
+
 
 // add event in all select items
 for (let i = 0; i < selectItems.length; i++) {
-  selectItems[i].addEventListener("click", function () {
-    if (!clickEventAdded) {
-      elementToggleFunc(select);
-    }
-    let selectedValue = this.dataset.value.toLowerCase();
+  selectItems[i].addEventListener("click", function (e) {
+
+    // Prevent click from reaching the parent select
+    e.stopPropagation();
+
+    const selectedValue = this.dataset.value.toLowerCase();
+
+    // Update selected value
     selectValue.innerText = this.dataset.value;
-    elementToggleFunc(select);
+
+    // Close dropdown
+    select.classList.remove("active");
+
+    // Filter
     filterFunc(selectedValue);
-    clickEventAdded = false;
   });
 }
 
